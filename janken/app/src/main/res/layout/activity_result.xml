@@ -57,6 +57,7 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:onClick="onBackButtonTapped"
         android:text="@string/back_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
