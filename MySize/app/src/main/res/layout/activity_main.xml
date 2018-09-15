@@ -6,13 +6,90 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/droid_image"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/ic_mysize"/>
+    <EditText
+        android:id="@+id/neck"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="首回り"
+        android:inputType="numberDecimal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@drawable/ic_mysize"
+        app:layout_constraintTop_toTopOf="@drawable/ic_mysize"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/waist"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="胴回り"
+        android:inputType="numberDecimal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@drawable/ic_mysize"
+        app:layout_constraintBottom_toBottomOf="@drawable/ic_mysize"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="250dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/sleeve"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="裄丈"
+        android:inputType="numberDecimal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@drawable/ic_mysize"
+        app:layout_constraintTop_toTopOf="@drawable/ic_mysize"
+        app:layout_constraintBottom_toBottomOf="@drawable/ic_mysize"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="180dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/inseam"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="股下"
+        android:inputType="numberDecimal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@drawable/ic_mysize"
+        app:layout_constraintTop_toBottomOf="@drawable/ic_mysize"
+        app:layout_constraintEnd_toEndOf="@drawable/ic_mysize"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/save"
+        android:text="@string/save_button_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_editor_absoluteY="450dp"/>
+
+    <ImageButton
+        android:id="@+id/height_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:srcCompat="@drawable/ic_height"
+        />
 
 </android.support.constraint.ConstraintLayout>
