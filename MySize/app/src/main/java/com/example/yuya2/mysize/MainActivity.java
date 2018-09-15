@@ -1,5 +1,6 @@
 package com.example.yuya2.mysize;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
@@ -43,16 +44,21 @@ public class MainActivity extends AppCompatActivity {
         editWaist.setText(waist);
         editInseam.setText(inseam);
         saveButton.setOnClickListener(new View.OnClickListener(){
+            @Override
             public void onClick(View v) {
                 onSaveTapped(v);
             }
         });
 
-        findViewById(R.id.height_button)
+        findViewById(R.id.height_button).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, HeightActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
-
-
 
 
     public void onSaveTapped(View view){
@@ -61,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("NECK",editNeck.getText().toString());
         editor.putString("SLEEVE",editSleeve.getText().toString());
         editor.putString("WAIST",editWaist.getText().toString());
-        editor.putString("INSEAN",editInseam.getText().toString());
+        editor.putString("INSEAM",editInseam.getText().toString());
         editor.commit();
     }
 
