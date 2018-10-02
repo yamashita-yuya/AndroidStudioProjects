@@ -1,5 +1,6 @@
 package com.example.yuya2.myscheduler;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,11 +9,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 import io.realm.Realm;
+import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity {
     private Realm mRealm;
+    private ListView mListView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,11 +29,23 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+               startActivity(new Intent(MainActivity.this,ScheduleEditActivity.class));
             }
         });
         mRealm = Realm.getDefaultInstance();
+
+        mListView = (ListView)findViewById(R.id.listView);
+        RealmResults<Schedule> schedules = mRealm.where(Schedule.class).findAll();
+        ScheduleAdapter adapter = new ScheduleAdapter(schedules);
+        mListView.setAdapter(adapter);
+
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+                Schedule schedule = (Schedule)parent.getItemAtPosition(position);
+                startActivity(new Intent(MainActivity.this,ScheduleEditActivity.class).putExtra("schedule_id", schedule.getId()));
+            }
+        });
     }
 
     @Override
