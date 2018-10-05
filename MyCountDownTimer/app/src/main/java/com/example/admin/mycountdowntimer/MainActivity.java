@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onFinish() {
             mTimerText.setText("0:00");
+            mSoundPool.play(mSoundResId, 1.0f,1.0f,0,0,1.0f);
         }
     }
 
