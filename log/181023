@@ -147,7 +147,7 @@ ViewPagerのスタティックのインナークラスだからページクリ�
 SSIDの設定ができるか
 
 TapiaApp.hideAndroidUi(false); //trueブラックバーが表示、falseブラックバーが非表示
-
+setImmersiveSticky();を追加
 
 
 
