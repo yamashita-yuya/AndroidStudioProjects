@@ -1,0 +1,9 @@
+三項演算子
+https://qiita.com/ikemo/items/f81f08055bb873b4d648
+Java　でint setting = millis != null ? millis : -1;
+
+一定時間で消灯、近接センサーでスクリーンオン
+https://qiita.com/kawmra/items/e82f4371c465311809fb
+https://qiita.com/jiro-aqua/items/904be549dca13551b513
+
+SCREEN_OFFする方法
