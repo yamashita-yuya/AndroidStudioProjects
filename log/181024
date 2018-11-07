@@ -1,0 +1,15 @@
+181024
+
+
+Json
+Unterminated objcet at character 例外
+"BUTTON":"宮崎の風景\"宮崎の風景\"宮崎の風景\"宮崎の風景\"宮崎の風景","SETTING":　であるべきところが
+"BUTTON":"宮崎の風景\"宮崎の風景\"宮崎の風景\"宮崎の風景\"宮崎の風景"SETTING":　となっていた
+
+sleepActivityのロジック
+アニメーション
+onResume
+EXHAUSTEDのアニメーションか
+
+設定ボタンはとりあえず見えなくした
+PresentaionMenuの矢印を消す
