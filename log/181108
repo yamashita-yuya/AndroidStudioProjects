@@ -1,0 +1,12 @@
+移行するまでの時間を長くした
+↓
+首を下げる動作は過剰なまでに行うようになった
+そのかわり、ScreenProtectionActivityへ遷移した瞬間に画面がOFFになり、その結果首を上げる動作が不十分となった。
+↓
+ScreenProtectionActivityの画面OFFバッファータイムを12000へ伸ばす
+↓
+すぐに画面OFFしてしまう
+バッファータイムを13000へ
+
+TapiaAnimationのBitmapをリサイクルする
+ログを見た感じだと、BitmapでOutofMemoryエラーになる

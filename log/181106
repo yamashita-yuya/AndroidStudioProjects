@@ -1,0 +1,16 @@
+SCREEN_OFFのBroadcastを受け取って、スクリーンOFF画面にインテントさせる
+
+onCreate で初期化するかonResumeで初期化するか
+
+sleepActivityのonPauseのときに、角度を変更する途中で画面遷移してしまうのでうまくいかない
+
+変な音がなるのは首の回転の問題
+ScreenOFFしている状態では首の回転は聞かない
+Sensor内で実行しても関係ない
+画面がついているかどうかが問題
+ScreenOnのタイミングで首を上げる？？
+それかIntentがあった場合にはRotationを行わないという方法
+またはActivity自体を分けないでおく
+それはやめたほうがいいか、
+Intentの仕組みを変えるか？？
+ScrenOFFの方でScreenOFFを行う
