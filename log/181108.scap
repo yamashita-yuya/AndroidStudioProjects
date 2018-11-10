@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="9FB32176-C47C-47FE-8C4B-B211B40D0BD2">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="371.0,260.0" Width="152.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>なぜ世界は生きづらいのか</String>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="371.0,291.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>世界の小さな課題を解決する</String>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="371.0,322.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>世界を良くするには</String>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="371.0,353.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>世界を壊したい</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="498.0,353.0" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>世界を壊してどうするの</String>
+            <ConnectedNoteIDs>5, 7</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="619.496094,408.34375" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>気分が爽快になる</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="619.496094,439.34375" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>何も考えなくて良くなる</String>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="619.496094,470.34375" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>働かなくて良くなる</String>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="371.0,384.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>働かなくていい世の中になればいいのに</String>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="371.0,432.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>働きたくない</String>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="371.0,463.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>色々考えるのがめんどくさい</String>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="371.0,494.0" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ずっとアニメを見られたらいい</String>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="371.0,525.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ずっとえっちができたらいい</String>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="371.0,556.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お金を稼がなくて良くなればいいのに</String>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="371.0,604.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>なんで人間は競争しなきゃいけないのか</String>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="371.0,652.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>競争しなくていい世の中はいい世の中でないか</String>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="371.0,700.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>もう何もしたくない</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="371.0,731.0" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お腹が空かなくなればいいのに</String>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="522.0,700.0" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>何もしないでどうするの</String>
+            <ConnectedNoteIDs>19, 22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="682.382812,733.542969" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>アニメを見ていたい</String>
+            <ConnectedNoteIDs>21, 23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="833.382812,733.542969" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>アニメを作る人がいなくなるよ</String>
+            <ConnectedNoteIDs>22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="833.382812,764.542969" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>AIでアニメを作ってくれないだろうか</String>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="371.0,762.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お腹が空かなくなって、せいよくも湧かなくなったらどうなるんだろ</String>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1062.257812,163.054688" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>飽き性対策！続かない&amp;つまらないをなくす方法</String>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="1062.0,211.0" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>慣れを起こしづらくする</String>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1062.0,242.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>なんで楽しいことに慣れてしまうのか</String>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1062.0,290.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>楽しいことはご褒美にする必要がある</String>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1062.0,338.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>何かに対して喜びを感じるのは、何かを乗り越えて手に入れるから</String>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="1062.0,386.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>自分が頑張ったことによって何かがて入ったら、ということで満足度が変わる</String>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1062.0,451.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>常に新しい発見ができることで空きをなくすことができる</String>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="1062.0,499.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>日常生活の楽しさを噛みしめる時間がない</String>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="1062.0,547.0" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>子供の頃の楽しみを感じるスキル</String>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="1062.0,578.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お金がない人がかえって飽き性になってしまうか</String>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="1062.0,626.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お金について考えているだけでも小さな幸せを感じすスキルがなくなる</String>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="1062.0,674.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お金に困っている人ほどそのような感覚を得てしまう</String>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="1062.0,722.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>お金について考えなくて済むように生きる</String>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="1062.0,770.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>一定以上のお金を持っていたらお金について考えない方が幸せになる</String>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="1062.0,818.0" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>不足こそが幸せを作り出していく</String>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="1062.0,849.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>一定期間不足を作る</String>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="1062.0,880.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>常にやろうできるとかそうゆう状況では飽きてしまう</String>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="1062.0,928.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>趣味を仕事にするとつまらなくなるのは不足をなくすから</String>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="1062.0,976.0" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>わざと不足状態を作る</String>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="1062.0,1007.0" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>時間を制限してできるようにする</String>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="1062.0,1038.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>有効期限が短いクーポンの方が使われる</String>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="1062.0,1086.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>高級カーシェア、一年で13日しか使えないから満足度が高い</String>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="1062.0,1134.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>一気見しない方が、全体的に満足度が高い</String>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="1062.0,1182.0" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ハンターハンターも？</String>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="1062.0,1213.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ご褒美にする</String>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="1062.0,1244.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>どのご褒美が来るかわからないランダムのご褒美の方が満足度が高い</String>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="1062.0,1292.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>自分は知らないことがたくさんあるなーって考え方の方が、世の中は楽しい。満足度が高い</String>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="1062.0,1357.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>恋愛の空きをなくすには、初対面であるかのように振る舞うだけで新しく感じられ、空きがなくなる</String>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="1062.0,1422.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>他人同士は分かり合えないという考えになると、相手を理解し合える</String>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="33.0,314.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ダリテクニック</String>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="33.0,345.0" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>夢を見ているのか見ていないのか</String>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="33.0,376.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>うたた寝</String>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="33.0,407.0" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>カップとスプーン</String>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="33.0,438.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ある程度考えておいてブレークスルーをテクニックで</String>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="33.0,486.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>死者の書</String>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="33.0,517.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>エジプト</String>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="33.0,548.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>死者の書の内容をアイデアの答えとして考えて発想していく</String>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="33.0,596.0" Width="152.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>フィクションストーリー方</String>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="33.0,627.0" Width="152.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>もしこうゆう風になったら</String>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="33.0,658.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>もし30歳になったら国外に出ないといけない国になったら</String>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="33.0,706.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>30歳の人に必要なもの、海外に行きたい人に必要なものがわかる</String>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="33.0,754.0" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>もし世界がこうなったらと考える</String>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="33.0,785.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>ダビンチスケッチ方</String>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="33.0,816.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>インクバッチテスト</String>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="33.0,847.0" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>形に意味がないものから考える</String>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="33.0,878.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>必ずメモする</String>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="33.0,909.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>とりあえずアイデアを考えておいてメモっておく</String>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="33.0,957.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>使える時に使えるようになる</String>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="33.0,988.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>とりあえず思いついて見ることが重要</String>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="33.0,1036.0" Width="152.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>全て書き留めることが重要</String>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="33.0,1067.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>紙に書いていくと絵が描ける</String>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="33.0,1098.0" Width="152.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>発想はアナログの方が良い</String>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="33.0,1129.0" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square">1.0 1.0 1.0</Border>
+            </Appearance>
+            <String>New Note</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>0-2, 5, 10-11, 13-20, 26</Stack>
+        <Stack>7-9</Stack>
+        <Stack>23-24</Stack>
+        <Stack>27-45, 47-50, 52-56, 58</Stack>
+        <Stack>59-82</Stack>
+    </Stacks>
+    <AutoFit>0-2, 5-9, 11, 13-15, 19-23, 28, 35, 41-42, 45, 47, 52-53, 59-62, 64-65, 67-68, 71-75, 77, 79-81</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="637BF4E7-E24A-43C9-AC2E-71D11A9A0551" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="39CE080B-2FCF-48AF-BC0F-04A1A6D2AB0D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="789F6E01-95AE-4AAA-A40F-8D30729ECEF0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="EAED186A-5EA2-472F-9714-67E9CE309D8D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="5E87FFBB-3F6C-4274-841F-7E070E321AC5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="6299B4B2-4A63-442D-93DF-BA0B02292CC2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="DC22B617-139B-4EBF-BA35-F06F0AE2D1DB" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Wingdings2</DefaultFont>
+        <DefaultTextColor>0.081439 0.081439 0.081439</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
