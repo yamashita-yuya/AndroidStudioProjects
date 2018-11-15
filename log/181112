@@ -1,0 +1,32 @@
+leakcanaryを入れたい
+・Error: Program type already present: のエラーが発生
+	Android Javadocの記載：
+	"A binary dependency includes a library that your app also includes as a direct dependency.
+	For example, your app declares a direct dependency on Library A and Library B, but Library A already includes Library B in its binary.
+	To resolve this issue, remove Library B as a direct dependency."
+	build.app#dependencies の'com.android.support:appcompat-v7:23.4.0'をコメントアウトし、シンク
+	build.Cleanproject
+	Run
+	" android.support.v4.app.TaskStackBuilder$SupportParentable"
+	上記でライブラリ上のクラスが2つ見つかる。
+	→そもそもappでの依存関係の宣言は関係ないのか
+	"Your app has a local binary dependency and a remote binary dependency on the same library.
+	To resolve this issue, remove one of the binary dependencies."
+	バイナリ依存関係を削除する必要があるのか
+	バイナリ依存関係の削除の方法
+	implementation 'com.android.support.constraint:constraint-layout:1.0.2'をコメントアウト
+	"Android resource linking failed"
+	戻す
+	以下をgradle.propertiesに追記
+	android.useAndroidX=true
+	android.enableJetifier=true
+	→たくさんエラー
+
+	そもそもcompileSDKversionを変更したことに原因がありそう
+	buildはできてRunができない
+	priv-appにおいているものもcompileSdkVersion25にしてみる
+	→そもそもbuild.apkができない
+	/Users/shotakikuoka/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.4.0/support-v4-23.4.0-sources.jar!/android/support/v4/app/TaskStackBuilder.java
+
+	田澤さんからのアドバイス→バックスタックをクリアするような処理を入れていないといくらやってもメモリリークする
+	
